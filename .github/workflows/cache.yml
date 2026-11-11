@@ -1,4 +1,5 @@
 name: cache
+run-name: ${{github.workflow}}_${{github.run_number}}
 on: 
   workflow_dispatch:
 
